@@ -1,0 +1,35 @@
+{
+    "totalBV": 4.0,
+    "idealDailyBV": 0.0,
+    "valueAUC": 0.0,
+    "dailyValuesList": [
+        {
+            "date": "2022-02-05",
+            "bvDone": 0.0
+        },
+        {
+            "date": "2022-02-06",
+            "bvDone": 0.0
+        },
+        {
+            "date": "2022-02-07",
+            "bvDone": 0.0
+        },
+        {
+            "date": "2022-02-08",
+            "bvDone": 0.0
+        },
+        {
+            "date": "2022-02-09",
+            "bvDone": 1.0
+        },
+        {
+            "date": "2022-02-10",
+            "bvDone": 1.0
+        },
+        {
+            "date": "2022-02-11",
+            "bvDone": 1.0
+        }
+    ]
+}

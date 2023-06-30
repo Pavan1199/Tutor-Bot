@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+taiga:
+  hostUrl: http://taiga-ms:8080/taiga

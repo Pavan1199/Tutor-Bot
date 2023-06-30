@@ -1,0 +1,11 @@
+Dev profile
+port: 8080
+Environment variable : "spring.profiles.active= dev"
+
+local profile:
+port: 8081
+Environment variable: "spring.profiles.active= local"
+
+
+Default
+Port:8080

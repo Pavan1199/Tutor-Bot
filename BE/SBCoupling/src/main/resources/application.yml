@@ -1,0 +1,5 @@
+server:
+  port: 8089
+
+taiga:
+  hostUrl: http://localhost:8080/taiga

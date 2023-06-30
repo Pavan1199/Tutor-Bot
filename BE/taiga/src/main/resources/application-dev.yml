@@ -1,0 +1,6 @@
+server:
+  port : 8080
+taiga:
+  username:
+  password:
+  

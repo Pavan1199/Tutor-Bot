@@ -1,0 +1,20 @@
+##### Docker File Format #####
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD xyz-0.0.1-SNAPSHOT.jar xyz-microservice.jar
+ENTRYPOINT ["java","-jar","/xyz-microservice.jar"]
+
+##### Docker IMAGE Build #####
+inside target dir: 
+    docker build -t xyz-microservice .
+
+To Remove a docker image: 
+    docker image rm <IMAGE_ID> —force
+
+##### Docker Container Build #####
+docker run -d -p 8081:8080 taiga-microservice
+Docker stop <CONTAINER ID>
+Docker rm <CONTAINER ID>
+
+Stop all containers: docker stop $(docker ps -a -q)
+Remove all containers: docker rm $(docker ps -a -q)

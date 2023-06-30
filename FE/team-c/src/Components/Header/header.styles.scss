@@ -1,0 +1,14 @@
+.header-class{
+    text-align: center;
+    color: azure;
+    width: 106px;
+    height: 24px;
+    background-color: coral;
+    border-radius: 6px;
+    border: 2px solid #ff229400;
+    margin-top: 20px;
+}
+
+.header-class:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }

@@ -1,0 +1,74 @@
+version: "3.7"
+
+services:
+  taiga-ms:
+    image: 'taiga-ms'
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+  auc-ms:
+    image: 'auc-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8082:8080"
+    expose:
+      - "8082"    
+  bdconsistency-ms:
+    image: 'bdconsistency-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8081:8080"
+    expose:
+      - "8080"
+      - "8081"
+  # deliveryontime-ms:
+  #   image: 'deliveryontime-ms'
+  #   depends_on:
+  #     - taiga-ms
+  #   ports:
+  #     - "8088:8080"
+  #   expose:
+  #     - "8088" 
+  pbcoupling-ms:
+    image: 'pbcoupling-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8090:8080"
+    expose:
+      - "8090"
+  pwd-ms:
+    image: 'pwd-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8087:8080"
+    expose:
+      - "8087"
+  sbcoupling-ms:
+    image: 'sbcoupling-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8089:8080"
+    expose:
+      - "8089"      
+  workbd-ms:
+    image: 'workbd-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8084:8080"
+    expose:
+      - "8084"
+  valuebd-ms:
+    image: 'valuebd-ms'
+    depends_on:
+      - taiga-ms
+    ports:
+      - "8083:8080"
+    expose:
+      - "8083"

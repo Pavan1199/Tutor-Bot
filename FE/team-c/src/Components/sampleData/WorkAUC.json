@@ -1,0 +1,48 @@
+{
+    "totalSP": 14.0,
+    "idealDailySP": 0.0,
+    "dailyValuesList": [
+        {
+            "date": "2022-02-19",
+            "spDone": 1.5,
+            "spIdeal": 3,
+            "spideal": 3
+        },
+        {
+            "date": "2022-02-20",
+            "spDone": 2,
+            "spIdeal": 6,
+            "spideal": 6
+        },
+        {
+            "date": "2022-02-21",
+            "spDone": 6,
+            "spIdeal": 9,
+            "spideal": 9
+        },
+        {
+            "date": "2022-02-22",
+            "spDone": 8.5,
+            "spIdeal": 12,
+            "spideal": 12
+        },
+        {
+            "date": "2022-02-23",
+            "spDone": 15,
+            "spIdeal": 15,
+            "spideal": 15
+        },
+        {
+            "date": "2022-02-24",
+            "spDone": 17,
+            "spIdeal": 18,
+            "spideal": 18
+        },
+        {
+            "date": "2022-02-25",
+            "spDone": 20,
+            "spIdeal": 21,
+            "spideal": 21
+        }
+    ]
+}
