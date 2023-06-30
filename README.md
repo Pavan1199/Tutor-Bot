@@ -1,6 +1,3 @@
-# ser516-project2-groupC
-
-Google Drive Link: https://drive.google.com/drive/folders/0ACQby-ZThfNmUk9PVA
 
 Steps on How to Run the Project locally
 
